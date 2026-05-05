@@ -1,0 +1,5 @@
+public/results/*.png
+sample_input.json
+__pycache__/
+*.py[cod]
+*$py.class

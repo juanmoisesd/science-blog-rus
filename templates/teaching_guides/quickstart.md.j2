@@ -1,0 +1,18 @@
+# Quickstart Guide
+
+## R
+```r
+library(tidyverse)
+data <- read_csv("dataset.csv")
+summary(data)
+ggplot(data, aes(x=var1, y=var2)) + geom_point()
+```
+
+## Python
+```python
+import pandas as pd
+import seaborn as sns
+df = pd.read_csv("dataset.csv")
+print(df.describe())
+sns.scatterplot(data=df, x="var1", y="var2")
+```
